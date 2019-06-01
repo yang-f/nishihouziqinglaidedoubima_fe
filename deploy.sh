@@ -5,7 +5,7 @@ cd cache/
 git pull
 git add .
 
-git commit -m 'auto deploy'
+git commit -m ':robot: auto deploy'
 git push
 
 
