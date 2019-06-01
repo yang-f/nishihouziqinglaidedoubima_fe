@@ -14,8 +14,8 @@ class _HomePageState extends State<HomePage> {
     return new BasePage(
       child: Container(
         child: new Container(
-          width: 200,
-          height: 100,
+          width: 100,
+          height: 50,
           decoration: new BoxDecoration(
             image: new DecorationImage(
               image: new AssetImage('logo.png'),
