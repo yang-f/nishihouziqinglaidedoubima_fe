@@ -13,7 +13,15 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return new BasePage(
       child: Container(
-        color: Colors.blue,
+        child: new Container(
+          width: 200,
+          height: 100,
+          decoration: new BoxDecoration(
+            image: new DecorationImage(
+              image: new AssetImage('logo.png'),
+            ),
+          ),
+        ),
       ),
     );
   }
