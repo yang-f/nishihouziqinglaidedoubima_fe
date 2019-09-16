@@ -1,4 +1,4 @@
-webdev build
+flutter build web
 
 cp -r build/* cache/
 cd cache/
